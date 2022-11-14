@@ -28,5 +28,11 @@ public class UseRegistration {
 		Assertions.assertEquals(result1,true);
 
 	}
-	
+	@Test
+	public void given_email_id_should_returnTrue(){
+		UserValidation validation= new UserValidation();
+		Boolean result2 = validation.checkEmail("Mumbacity@gmail.com");
+		Assertions.assertEquals(result2,true);
+	}
+
 }
