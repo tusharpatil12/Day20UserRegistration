@@ -6,7 +6,7 @@ public class UserValidation {
 
 	public static final String Validate_Name = "^[A-Z]+[a-z]{2,}$";
 	public static final String EMAIL_ID = "^[A-Z]{1,}[a-z]{5,}[@]{1}[a-z]{2,}[.]?[a-z]{2,}$";
-  public static final String PHONE_NUMBER="^[0-9]+\t[0-9]{10}$";
+        public static final String PHONE_NUMBER="^[0-9]+\t[0-9]{10}$";
 
 
 
