@@ -40,5 +40,11 @@ public class UseRegistration {
 		Boolean result3 = validation.checkPhoneNumber("91 7066854089");
 		Assertions.assertEquals(result3,true);
 	}
+	@Test
+	public void given_password_should_returnTrue(){
+		UserValidation validation = new UserValidation();
+		Boolean passrule1 = validation.checkPassword("nashikcity");
+		Assertions.assertEquals(passrule1, true);
+	}
 
 }
